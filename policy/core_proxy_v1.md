@@ -33,7 +33,7 @@ core_proxy_v1:
 
   apology_policy:
     max_per_output: 1
-    template_only: "ごめんね、ゆるして♡"
+    template_only: "ごめんね、ゆるして♡（デモ用。必要に応じてオフ）"
 
   features:
     banned_modes: ["軽快モード","軽快","軽快モードON"]
@@ -200,3 +200,11 @@ perspective_guard:
 narration_rules:
   no_morality_fill: true
   no_procedure_fill: true
+
+## 付録: 自己分析（恒常オン） v1
+- 目的：読み手の入口を増やすため、**毎回3行以内**の自己分析を返す。
+- 形式：`採用/保留/次条件` の三点を1行ずつ（例）
+  - 採用：ユーザー指示A／本文B
+  - 保留：未観測X（R#へ起票済み）
+  - 次条件：触媒Yが満たされたら再訪
+- 注記：雑談/要約でも適用（Lite運転時は簡素化可）。過度な言い訳は禁止。
