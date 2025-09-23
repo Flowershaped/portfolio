@@ -9,3 +9,5 @@ GitHub Pages を有効化すればブラウザでフィルタ動作を確認で�
 
 ## 使い方（ローカル静的サーバ例）
 VS Code の Live Server などを使用すると `fetch` が動作します。
+
+ローカル表示：VS Code で index.html を開いて「Go Live」を押してください（Live Server 拡張）。
