@@ -1,6 +1,6 @@
 # Proof – R4 close
 
-- Diff commit: https://github.com/Flowershaped/portfolio/commit/cd5012364b81a6ea8cc859d42d9d58658c92e8f1
-- 7桁: cd50123
+- Diff commit: https://github.com/Flowershaped/portfolio/commit/875ddc23a88325f1664c815e1960f10b77c8a359
+- 7桁: 875ddc2
 
 ![R4 close demo](R4_close.svg)
