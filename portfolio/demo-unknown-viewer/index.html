@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Unknown Management Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Unknown Management Viewer</h1>
+    <section class="controls">
+      <label>状態フィルタ：
+        <select id="stateFilter">
+          <option value="">（すべて）</option>
+          <option value="open">open</option>
+          <option value="close">close</option>
+        </select>
+      </label>
+      <button id="reload">再読込</button>
+      <small class="note"> 参照先：<code>templates/R_ledger.csv</code></small>
+    </section>
+    <section>
+      <table id="grid">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
