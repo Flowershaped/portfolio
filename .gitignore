@@ -1,0 +1,13 @@
+# folders to keep local/private
+private/
+logs/
+draft/
+# common secrets
+*.env
+*.sqlite
+*.db
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
