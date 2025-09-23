@@ -1,10 +1,6 @@
-# Proofs（本人性の検証）
+# Proof – R4 close
 
-公開実名は記載しません。必要時のみ **commit-hash 方式** を使います。
+- Diff commit: https://github.com/Flowershaped/portfolio/commit/bc5df780fdca696f0526a570f1bb285bebc5fb42  
+- 7桁: bc5df78
 
-## 手順（先方：閲覧のみ）
-1. 応募者から短縮ハッシュ（7桁）`abcdef0` を受け取る。
-2. 本リポのコミット履歴で該当ハッシュを確認する。追加で照合が必要な場合：
-3. `proofs/self/abcdef0.txt` があれば確認（無ければ依頼に応じて短期掲出します）。
-
-> 掲出後は削除または `git revert` で履歴から撤回します（内容は無害テキスト）。
+![R4 close demo](R4_close.svg)
