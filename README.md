@@ -1,24 +1,27 @@
-# Portfolio
+﻿# Portfolio
 
-Intent：ポートフォリオ作品と会話設計ポリシー（個人運用）を同梱した公開リポジトリ。  
-Email：非公開（GitHub noreply運用）。連絡は Issues を使用。
+Intent・壹・繝ｼ繝医ヵ繧ｩ繝ｪ繧ｪ菴懷刀縺ｨ莨夊ｩｱ險ｭ險医・繝ｪ繧ｷ繝ｼ・亥倶ｺｺ驕狗畑・峨ｒ蜷梧｢ｱ縺励◆蜈ｬ髢九Μ繝昴ず繝医Μ縲・ 
+Email・夐撼蜈ｬ髢具ｼ・itHub noreply驕狗畑・峨る｣邨｡縺ｯ Issues 繧剃ｽｿ逕ｨ縲・
 
 ## Structure
-- `portfolio/`：作品とデモ
-- `policy/`：会話設計ポリシー（core_proxy_v1 / unknown_management）
-- `templates/`：R台帳CSV・コミット規則
-- `proofs/`：本人性の検証フロー（公開情報のみ）
-- `PORTFOLIO.md`：作品索引
-- `CHANGELOG.md`：変更履歴
+- `portfolio/`・壻ｽ懷刀縺ｨ繝・Δ
+- `policy/`・壻ｼ夊ｩｱ險ｭ險医・繝ｪ繧ｷ繝ｼ・・ore_proxy_v1 / unknown_management・・
+- `templates/`・啌蜿ｰ蟶ｳCSV繝ｻ繧ｳ繝溘ャ繝郁ｦ丞援
+- `proofs/`・壽悽莠ｺ諤ｧ縺ｮ讀懆ｨｼ繝輔Ο繝ｼ・亥・髢区ュ蝣ｱ縺ｮ縺ｿ・・
+- `PORTFOLIO.md`・壻ｽ懷刀邏｢蠑・
+- `CHANGELOG.md`・壼､画峩螻･豁ｴ
 
-## Verification（本人性の確認：commit-hash 方式）
-- 公開実名は掲載しません。本人であることの確認が必要な場合のみ、**コミットハッシュ連携**で照合します。
-- 手順：
-  1) 応募フォーム等で、私が **commit hash（短縮7桁）** をお伝えします（例：`abc1234`）。
-  2) 本リポのコミット履歴で該当ハッシュを確認してください。
-  3) 追加で必要な場合は、同じハッシュ名のファイルを `proofs/self/abc1234.txt` として短期掲出（確認後に削除 or revert）。
-- これにより、実名は露出せず、先方の負担は閲覧のみで完結します。
+## Verification（本人性の確認）
 
+公開実名は掲載しません。
+本人確認が必要な方は、ご連絡いただければ以下の方法で対応いたします。
+
+1) 7桁ハッシュをお伝えします。7桁ハッシュと、提示するコミットURLのページ上部IDが一致するかご確認ください。
+    当該リポジトリを操作できる（pushできる）者＝私であることの証拠になります。
+   なお、このハッシュは応募時にポートフォリオURLとあわせて併記しています。
+
+2) 追加の実名確認が必要な場合のみ、専用ブランチに `proofs/self/<7桁>.txt` を数時間だけ掲出します（確認後に削除）。ファイル内に実名を記載します。
 ## License
-- 文書（policy, README, templatesの文章）：CC BY 4.0
-- コード／サンプル（portfolio 下のコード等）：MIT
+- 譁・嶌・・olicy, README, templates縺ｮ譁・ｫ・会ｼ咾C BY 4.0
+- 繧ｳ繝ｼ繝会ｼ上し繝ｳ繝励Ν・・ortfolio 荳九・繧ｳ繝ｼ繝臥ｭ会ｼ会ｼ哺IT
+
